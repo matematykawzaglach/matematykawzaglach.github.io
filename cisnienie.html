@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="css/style_cisnienie.css">
+	<title>Cisnienie</title>
+</head>
+<body>
+	<header>
+		<div class="flex_header">
+			<div class = "logo">
+				<a href="index.html"><img src = "img/logo.png"></a> 
+			</div>
+			<nav class="menu">
+				<a class = "button" href="budowa_jachtu.html">Budowa jachtu</a>
+				<a class = "button" href="pomiary.html">Pomiary</a>
+				<a class = "button" href="sily_dzialajace_na_jacht.html">Siły działające na jacht</a>
+				<a class = "button" href="link">Przycisk 4</a>	
+			</nav>
+		</div>
+	</header>
+	<article>
+		<section>
+			<h1>Prawo Bernouliego </h1>
+			<p>
+				Opisuje ono zależności ciśnienia i prędkości dla cieczy, często zakłada zmianę wysokości.
+			</p>
+			<p>Równanie:</p>
+			<b>p+½ ⍴v2+ρgh = const</b>
+			<p>Gdzie:
+				<br><br>p - ciśnienie
+				<hr>ρ - gęstość cieczy
+				<hr>v - prędkość cieczy
+				<hr>g - przyśpieszenie ziemskie
+				<hr>h - zmiana wysokości
+				 </p>
+			<p>Oznacza to, że gdy zmienia się np. prędkość to musi się także zmienić jedna z pozostałych wartości, najczęściej ciśnienie.
+				 Jeśli więc wzrośnie prędkość to ciśnienie musi spaść. </p>
+			<p>Na nasze potrzeby będziemy wykorzystywać uproszczony wzór: </p>
+			<b>p + ½ ρv2 = const</b>
+			<p>Możemy to zrobić, gdyż w naszym przypadku nie będzie zachodzić żadna zmiana h, czyli cały ten człon wynosiłby 0.</p>
+		</section>
+		<section>
+		<h1>Ciśnienie</h1>
+		<p>Aby dowiedzieć się jak powietrze będzie działać na nasz żagiel musimy najpierw wiedzieć że będzie ono przede wszystkim wywierać na nim ciśnienie.
+			 W celu wyjaśnienia tego zjawiska musimy skorzystać z prawa Bernoulliego. </p>
+		<img src="img/cisnienie1.JPG">
+		<p>Spróbujmy teraz dzięki poznanemu prawu wyjaśnić co dzieje się na rysunku. Przede wszystkim wyjaśnijmy sobie co na nim jest. Widzimy żagiel, linie dookoła niego można porównać do poziomic, więc im większe jest ich zagęszczenie tym większe będziemy mieć różnice ciśnienia. Co w efekcie oznacza silniejszy wiatr. 
+			Korzystając z prawa Bernoulliego opiszmy to co się tu dzieje, literą “z” opiszemy to co się dzieje nad żaglem, czyli po zawietrznej, a literą “n” to co pod, czyli po nawietrznej. Powstaje nam równanie: </p>
+		
+		<b>pz + ½ ρvz2 = pn + ½ ρvn2</b>
+		<p>Z rysunku możemy wywnioskować, że vz>vn, bo będzie tam silniejszy wiatr, czyli powietrze będzie poruszać się z większa prędkością. Jeśli porównamy to z naszym równaniem okaże się, że pz< pn, bo obie strony równania muszą być równe, więc ciśnienie po dwóch stronach żagla będzie inne. Wiemy, że wiatr wieje od wyżu (pn) do niżu (pz), czyli powstanie nad siła działająca ze strony nawietrznej do zawietrznej.</p>
+		<p>Te różnice ciśnienia możemy doświadczalnie zmierzyć. Wyniki pokazuje nad ten wykres:</p>
+		<img src="img\cisnienie2.JPG">
+		<p>Względną wartość ciśnienia, która jest wartością bezwymiarową, otrzymujemy dzięki temu równaniu:</p>
+		<b>pw = (pm-pa)/(½ ρv2)</b>
+		<p>Gdzie:
+			<br><br>pw - względna wartość ciśnienia
+			<hr>pm- zmierzone doświadczalnie ciśnienie
+			<hr>pa- ciśnienie atmosferyczne
+			<hr>ρ - gęstość strumienia powietrza
+			<hr>v- prędkość strumienia
+		</p>
+		<p>Możemy więc zauważyć, że względna wartość ciśnienia po stronie nawietrznej jest dodatnia, natomiast po zawietrznej tworzy nam się podciśnienie.</p>
+		<p>Jeśli przyjrzymy się wykresowi to zauważymy, że za masztem (pierwsze % długości cięciwy)  następuje gwałtowny spadek ciśnienia po obu stronach żagla. Pokazuje to poniższy rysunek:</p>
+		<img src="img/cisnienie3.JPG">
+		<p>Strumienie powietrza przebiegają równolegle do powierzchni masztu. Niestety kończy się on nagle, przez co strumienie powietrza gwałtownie się od niego odrywają i postaja nam zawirowania. Nazywane są one wirami karmana, które powodują spadek ciśnienia. Aby temu zapobiec stosuje się bardziej wydłużone maszty, aby łagodniej się kończyły.</p>
+	</section>
+	</article>
+	
+	
+
+</body>
+</html>

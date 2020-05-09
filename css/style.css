@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+
+body{
+	margin: 0px;
+	background-image: url("C:/Users/leon/Desktop/Matematyka w żaglach/img/Glowne_zdjecie.jpg");
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: auto;
+	font-family: 'Roboto', 'Times New Roman', Times, serif;
+}
+
+.menu {
+	margin: auto 1.5% auto auto;
+}
+
+.button {
+	text-decoration: none;
+	padding: 10px;
+	margin: 5px;
+	color: black;
+	background-color: inherit;
+}
+
+.flex_header {
+	display: flex;
+	padding: 0px;
+	flex-direction: row;
+}
+
+.logo {
+	transform: scale(0.75);
+}
