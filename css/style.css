@@ -11,6 +11,7 @@ body{
 
 .menu {
 	margin: auto 1.5% auto auto;
+	display: flex
 }
 
 .button {
