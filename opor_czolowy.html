@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="css/style_opor_czolowy.css">
+	<title>Opór czołowy</title>
+</head>
+<body>
+	<header>
+		<div class="flex_header">
+			<div class = "logo">
+				<a href="index.html"><img src = "img/logo.png"></a> 
+			</div>
+			<nav class="menu">
+				<a class = "button" href="budowa_jachtu.html">Budowa jachtu</a>
+				<a class = "button" href="pomiary.html">Pomiary</a>
+				<a class = "button" href="sily_dzialajace_na_jacht.html">Siły działające na jacht</a>
+				<a class = "button" href="link">Przycisk 4</a>	
+			</nav>
+		</div>
+	</header>
+	<article>
+		<section>
+			<h1>Liczba Reynoldsa</h1>
+			<p>Charakteryzuje ona przepływy, nieważne w jakiej cieczy lub gazie i nieważne jakie wymiary ma obiekt</p>
+				<p>Jest ona bezwymiarowa (nie ma jednostki miary)</p>
+			<p>Co oznacza dla:</p>
+			<ul>
+				<li>małych wartości: przepływ laminarny (bez zakłóceń między warstwami) i nieduże opory tarcia</li><br>
+				<li>pewnej krytycznej wartości i wyżej: przepływ turbulentny (skomplikowany, nie laminarny) i tarcie gwałtownie wzrasta</li>
+			</ul>
+			<p>Wzór:</p>
+			<b>Re = (vlρ)/η</b>
+			<p>gdzie : <br>
+				v - prędkość ciała względem wpływu <br>
+				l - długość ciala <br>
+				ρ - gęstość cieczy <br>
+				η - lepkość cieczy <br>
+				</p>
+		</section>
+		<section>
+			<h1>Opór czołowy</h1>
+			<b>Opór czołowy</b> - składowa oporu siły tarcia stawianego przez wodę
+			Aby go obliczyć musimy zdobyć wzór na opór ośrodka, w którym się poruszamy
+			<p>Wyprowadzenie wzoru na opór ośrodka:</p>
+			<p>1. Od czego może zależeć?</p>
+			<p>Przyjmijmy, że od: prędkości ciała względem pływu, długości ciała, gęstości ośrodka i jego lepkości</p>
+			<p>Z tych czterech wielkości powstaje nam bezwymiarowa wielkość: <u>Liczba Reynoldsa</u></p>
+			<p>2. Powstaje nam wzór:</p>
+			<b>D = kv<sup>a</sup>l<sup>b</sup>q<sup>c</sup>n<sup>d</sup></b>
+			<p>Gdzie:</p>
+			<p>k to funkcja liczby Reynoldsa</p>
+			<p>a,b,c,d muszą być tak dobrane aby powstała siła</p>
+			<p>3. Po dobraniu odpowiednich a,b,c,d, wychodzi nam wzór:</p>
+			<b>D = kqv<sup>2</sup>l<sup>2</sup></b>
+			<p>4. Częściej zapisywany jest on jako:</p>
+			<b>D = ½ Cqv<sup>2</sup>S</b>
+			<p>Gdzie:</p> <br>
+			<p>S - przekrój poprzeczny ciała <br>
+				C - współczynnik zależny od kształtu ciała i liczby Reynoldsa Re
+				</p>
+		</section>
+
+	</article>
+	
+	
+
+</body>
+</html>

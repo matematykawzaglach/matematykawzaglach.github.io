@@ -12,6 +12,18 @@ html::before {
     position: fixed;
     z-index: -10; 
 }
+@media only screen and (max-width: 600px){
+	article{
+		position: relative;
+		margin-left: auto;
+		width: 500px;
+	}
+	ul {
+		width: 600px;
+		
+		text-align: justify;
+	}
+}
 body{
 	margin: 0px;
 	background-image: url("https://matematykawzaglach.github.io/img/Glowne_zdjecie.jpg");
