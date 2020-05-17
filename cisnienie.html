@@ -27,20 +27,68 @@
 			<p>
 				Opisuje ono zależności ciśnienia i prędkości dla cieczy, często zakłada zmianę wysokości.
 			</p>
-			<p>Równanie:</p>
-			<b>p+½ ⍴v2+ρgh = const</b>
-			<p>Gdzie:
-				<br><br>p - ciśnienie
-				<br>ρ - gęstość cieczy
-				<br>v - prędkość cieczy
-				<br>g - przyśpieszenie ziemskie
-				<br>h - zmiana wysokości
-				 </p>
-			<p>Oznacza to, że gdy zmienia się np. prędkość to musi się także zmienić jedna z pozostałych wartości, najczęściej ciśnienie.
-				 Jeśli więc wzrośnie prędkość to ciśnienie musi spaść. </p>
-			<p>Na nasze potrzeby będziemy wykorzystywać uproszczony wzór: </p>
-			<b>p + ½ ρv2 = const</b>
+			<p>Spróbujmy wyprowadzić sobie wzór używany w prawie Bernoulliego na podstawie poniższego rysunku, obrazującego przepływ wody w strudze.</p>
+			<img src="img/prawo1.JPG">
+			<img src="img/prawo2.JPG">
+			<p>Gdzie:</p>
+			<p>t - czas</p>
+			<p>v<sub>1</sub> - prędkość cieczy w punkcie A</p>
+			<p>v<sub>2</sub> - prędkość cieczy w punkcie B</p>
+			<p>p<sub>1</sub>, p<sub>2</sub> - ciśnienie</p>
+			<p>h<sub>1</sub>, h<sub>2</sub> - wysokość na jakiej znajduje się ciecz</p>
+			<p>Założenie: ciecz ma stałą gęstość, objętość tej cieczy w punktach A i B są takie same</p>
+			<p>Równanie Bernoulliego stosuje się ściśle jedynie do płynu doskonałego.</p>
+			<p>*płyn doskonały - jest nieściśliwy i i nie ma lepkości, a jego przepływ jest ustalony i bezwirowy</p>
+			<p>*przepływ ustalony (laminarny) - gdy prędkość poruszającego się płynu w każdym wybranym punkcie nie zmienia się z upływem czasu</p>
+			<p>*nieściśliwy - jego gęstość jest stała</p>
+			<p>*nie lepki - lepkość płynu to miara oporu, jaki stawia płyn jego przepływowi (zjawisko analogiczne do tarcia między ciałami stałymi → w obu przypadkach E<sub>k</sub> poruszających się ciał ulega zmianie w energię cieplną </p>
+			<p>*przepływ bezwirowy - umieszczone w płynie ziarenko nie obraca się wokół osi przechodzącej przez jego środek masy, niezależnie od tego, czy porusza się po torze kołowym, czy nie</p>
+			<p>Wychodzimy z zasady zachowania energii, która mówi, że praca równa się różnicy energii kinetycznej</p>
+			<b>W = ΔE</b>
+			<b>E<sub>k</sub> = 1/2mv<sup>2</sup> </b>
+			<p>Następnie, wyliczamy różnicę E<sub>k</sub> cieczy w punkcie A i B.</p>
+			<p>Skoro wiemy, że objętości są takie same (jest to płyn doskonały), masa również jest taka sama. →  We wzorach na energię kinetyczną masa będzie taka sama, a różna prędkość
+			</p>
+			<img src="img/prawo3.JPG">
+			<img src="img/prawo4.JPG">
+			<p>Δm - masa płynu, który wpływa do rury na końcu wejściowym i wypływa na końcu wyjściowym, w przedziale czasu Δt
+			</p>
+			<p>Wykonywana praca ma dwa źródła:</p>
+			<p>		a) Siłę ciężkości (Δmg)</p>
+			<p>		b) Siłę działającą na płyn przy wtłaczaniu i wypychaniu płynu z rury (pS)</p>
+			<p>p - ciśnienie
+			</p>
+			<p>S - pole powierzchni przekroju rury</p>
+			<p>a) Praca wykonana przez siłę ciężkości:</p>
+			<img src="img/prawo5.JPG">
+			<p>b) Praca wykonana przez siłę działającą na płyn przy wtłaczaniu i wypychaniu</p>
+			<img src="img/prawo6.JPG">
+			<p>FΔx - to praca wykonana przez siłę o wartości F, działająca na próbkę płynu o polu przekroju poprzecznego S, przy przemieszczeniu płynu na odległość Δx</p>
+			<p>~Praca wykonana nad układem: p<sub>1</sub>ΔV</p>
+			<p>~Praca wykonana przez układ: -p<sub>2</sub>ΔV</p>
+			<p>~Suma:</p>
+			<img src="img/prawo7.JPG">
+			<p>Cała praca to suma dwóch, na które przed chwilą rozłożyliśmy, więc:</p>
+			<img src="img/prawo8.JPG">
+			<p>Podstawiamy znane nam już wartości w tym równaniu.</p>
+			<img src="img/prawo9.JPG">
+			<p>Po wymnożeniu nawiasów i uporządkowaniu wyrażenia otrzymamy:</p>
+			<img src="img/prawo10.JPG">
+			<img src="img/prawo11.JPG">
+			<p>Gdzie:</p>
+			<p>
+				p - ciśnienie <br>
+				ρ - gęstość cieczy <br>
+				v - prędkość cieczy <br>
+				g - przyśpieszenie ziemskie <br>
+				h - zmiana wysokości
+			</p>
+			<p>Oznacza to, że gdy zmienia się np. prędkość to musi się także zmienić jedna z pozostałych wartości, najczęściej ciśnienie. Jeśli więc wzrośnie prędkość to ciśnienie musi spaść.</p>
+			<p>Na nasze potrzeby będziemy wykorzystywać uproszczony wzór:</p>
+			<b>p + ½ ρv<sup>2</sup> = const</b>
 			<p>Możemy to zrobić, gdyż w naszym przypadku nie będzie zachodzić żadna zmiana h, czyli cały ten człon wynosiłby 0.</p>
+
+
 		</section>
 		<section>
 		<h1>Ciśnienie</h1>
