@@ -3,8 +3,7 @@
 }
 .centered {
 	position: fixed;
-	top: 40%;
-	left: 30%;
+	margin: auto;
 	text-align: center;
 	font-size: 70px;
 	color: white;
