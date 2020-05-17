@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="css/style_predkosc_jachtu.css">
+	<title>Prędkość jachtu</title>
+</head>
+<body>
+	<header>
+		<div class="flex_header">
+			<div class = "logo">
+				<a href="index.html"><img src = "img/logo.png"></a> 
+			</div>
+			<nav class="menu">
+				<a class = "button" href="budowa_jachtu.html">Budowa jachtu</a>
+				<a class = "button" href="pomiary.html">Pomiary</a>
+				<a class = "button" href="sily_dzialajace_na_jacht.html">Siły działające na jacht</a>
+				<a class = "button" href="predkosc_jachtu.html">Prędkość jachtu</a>	
+			</nav>
+		</div>
+	</header>
+	<article>
+		<section>
+			<h1>Czy jacht może płynąć z prędkością większą od prędkości wiatru?</h1>
+			<p>Płynącemu na jachcie żeglarzowi często może wydawać się, że osiąga duże prędkości, ponieważ ma złudne wrażenie, że prędkość samego jachtu jest dużo większa niż w rzeczywistości.</p>
+			<p>Omówiliśmy już we wcześniejszych częściach rodzaje wiatru - rzeczywisty, pozorny i własny, dlatego wiemy skąd bierze się u wspomnianego żeglarza takie odczucie.</p>
+			<p>Jak to jednak dokładnie jest z prędkością łodzi? Czy jacht może osiągnąć większą jej wartość od wiatru? Jeśli odpowiedź miałaby być twierdząca, to jakie warunki musiałyby zostać spełnione? Jeśli jest to niemożliwe, to właściwie dlaczego i jaka wtedy jest maksymalna prędkość jachtu?
+			</p>
+			<p>Spróbujmy to rozważyć.</p>
+			<p>Przypomnijmy sobie zależność występującą pomiędzy wiatrami:</p>
+			<b>v<sub>p</sub> = v<sub>r</sub> - v<sub>j</sub></b>
+			<p>Gdzie:</p>
+			<p>v<sub>p</sub> - prędkość wiatru pozornego</p>
+			<p>v<sub>r</sub> - prędkość wiatru rzeczywistego</p>
+			<p>v<sub>j</sub> - prędkość jachtu = prędkość wiatru własnego</p>
+			<p>W naszych rozważaniach załóżmy, że stałe są wartości prędkości wiatru rzeczywistego oraz kąt α, najostrzejszy pod jakim jest w stanie płynąć jacht, aby nie wejść w kąt martwy.</p>
+			<img src="img/PredkoscJ1.JPG">
+			<p>v<sub>r</sub> - cięciwa okręgu opisanego na trójkącie</p>
+			<p>r - promień okręgu opisanego na trójkącie</p>
+			<p>Aby móc dokładnie przeanalizować powyższy rysunek warto zrobić krótkie przypomnienie z geometrii:</p>
+			<p>1. TWIERDZENIE O KĄCIE ŚRODKOWYM I WPISANYM W OKRĄG</p>
+			<p>Jeśli kąt wpisany α i kąt środkowy β są oparte na tym samym łuku, to:</p>
+			<b>β = 2α</b> <br><br>
+			<img src="img/PredkoscJ2.JPG">
+			<p>2. TWIERDZENIE O KĄCIE OPARTYM NA ŚREDNICY OKRĘGU</p>
+			<p>Jeśli kąt wpisany α jest oparty na średnicy okręgu, to:</p>
+			<b>α = 90</b><br><br>
+			<img src="img/PredkoscJ3.JPG">
+			<p>Odnieśmy to teraz do naszego jachtu z pierwszego rysunku.</p>
+			<p>Na początku powstał nam trójkąt z wektorów v<sub>j</sub>, v<sub>p</sub> i v<sub>r</sub></p>
+			<p>Aby dojść do wzoru na promień okręgu, musimy skorzystać z obu przypomnianych twierdzeń:</p>
+			<img src="img/PredkoscJ4.JPG">
+			<p>Stąd możemy zauważyć zależność, że długość promienia okręgu rośnie odwrotnie proporcjonalnie do wartości kąta α.</p>
+			<p>Na podstawie pierwszego rysunku możemy zauważyć, że odcinek OA1 stanowi maksymalną składową prędkości jachtu v<sub>j1</sub>. Spróbujmy zatem wyznaczyć wzór potrzebny do jej policzenia.</p>
+			<p>Z rysunku możemy wyznaczyć:</p>
+			<img src="img/PredkoscJ5.JPG">
+			<p>skoro wyznaczyliśmy wcześniej ile równa się promień, to możemy podstawić jego wartość do powyższego równania i otrzymamy:</p>
+			<img src="img/PredkoscJ6.JPG">
+			<p>A teraz z rysunku wyciągniemy kolejną informację. Skoro odcinek OA<sub>2</sub> stanowi maksymalną składową prędkości v<sub>j2</sub>, który płynie z wiatrem, możemy zapisać:</p>
+			<img src="img/PredkoscJ7.JPG">
+			<p>I na sam koniec naszych rozważań spójrzmy na odcinek OA<sub>3</sub>, który jest maksymalną prędkością jachtu i odpowiada długości średnicy. W tym przypadku wyjdzie nam równanie:</p>
+			<img src="img/PredkoscJ8.JPG">
+			<p>Dotarliśmy do momentu, w którym potwierdzamy, że jacht może płynąć z prędkością większą od prędkości wiatru. Jednak biorąc pod uwagę duże opory ruchu, jacht płynący po wodzie nie da rady tego zrobić. W takiej sytuacji możemy wysunąć przykład bojerów, które to mogą płynąć nawet pod kątem kilku stopni na wiatr.</p>
+		</section>
+	</article>
+	
+	
+
+</body>
+</html>

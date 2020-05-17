@@ -1,0 +1,21 @@
+h1{
+    font-size: 2rem;
+}
+
+section{
+    position: relative;
+    top: 50px;
+    text-align: center;
+    max-width: 50%;
+    margin: 0px auto 0px auto;
+    color:white;
+    font-size: 20px;
+    padding: 20px;
+    text-shadow: -0.5px 0 black, 0 0.5px black, 0.5px 0 black, 0 -0.5px black;
+}
+p{
+    text-align: justify;
+}
+hr{
+    text-align: justify;
+}
