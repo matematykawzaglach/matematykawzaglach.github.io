@@ -2,9 +2,19 @@
 	color: white;
 }
 .centered {
-	margin: 12rem;
+	margin-top: 12rem;
 	text-align: center;
 	font-size: 70px;
 	color: black;
 }
-
+p{
+	margin-top: 10rem;
+	text-align: center;
+    max-width: 50%;
+	margin: 0px auto 0px auto;
+	font-size: large;
+}
+.wstep{
+	position: relative;
+	top: 5rem;
+}
