@@ -23,6 +23,9 @@ html::before {
 		
 		text-align: justify;
 	}
+	li{
+		width: 60%;
+	}
 }
 body{
 	margin: 0px;
