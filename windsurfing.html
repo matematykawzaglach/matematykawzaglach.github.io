@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="css/style_windsurfing.css">
+	<title>Cisnienie</title>
+</head>
+<body>
+	<header>
+		<div class="flex_header">
+			<div class = "logo">
+				<a href="index.html"><img src = "img/logo.png"></a> 
+			</div>
+			<nav class="menu">
+				<a class = "button" href="cisnienie.html">Ciśnienie</a>
+				<a class = "button" href="wiatr.html">Wiatr</a>
+				<a class = "button" href="opor_czolowy.html">Opór czołowy</a>
+				<a class = "button" href="predkosc_jachtu.html">Prędkość jachtu</a>	
+			</nav>
+		</div>
+	</header>
+	<article>
+		<section>
+			<h1>Windsurfing</h1>
+			<p>Windsurfing to stosunkowo młody sport, szczególnie jeśli porównamy go do żeglarstwa. Ale na nim również możemy doszukiwać się zależności fizycznych, w dodatku jest ich dość dużo. Spróbujmy skupić się na jednej rzeczy, mianowicie postaramy się oszacować wysiłek żeglarza płynącego na desce.</p>
+			<p>Najpierw musimy założyć, że deska z żeglarzem znajdują się w równowadze, oznacza to, że wszystkie siły przedstawione na poniższym obrazku będą się równoważyć.</p>
+			<img src="img/windsurfing1.JPG">
+			<p>Gdzie: <br>
+				G - ciężar żeglarza <br>
+				R - siła reakcji na jego (żeglarza) nacisk <br>
+				N - siły oddziaływania rękami na bom
+			</p>
+			<p>Tu mamy ten sam rysunek tylko z czytelniej zaznaczonymi siłami i kątami między nimi:</p>
+			<img src="img/windsurfing2.JPG">
+			<p>Skoro wiemy już, że wszystkie siły się równoważą to możemy to zapisać w formie równania:</p>
+			<p>Rcosβ - Ncosγ = 0, bo żeglarz nie przechyla się w żadną stronę</p>
+			<p>Rsinβ + Nsinγ = G ,bo żeglarz razem z deską nie tonie</p>
+			<p>Chcemy dowiedzieć się ile wynosi N, czyli siła oddziaływania rąk żeglarza, tym samym siła którą próbujemy znaleźć.</p>
+			<p>Przekształcenie na N</p>
+			<img src="img/windsurfing3.JPG">
+			<p>Gdzie: <br>
+				G - ciężar żeglarza <br>	
+				γ - możemy ją znaleźć analizując zdjęcie 
+				</p>
+			<p>Postarajmy się więc znaleźć tgβ, wiemy że przedłużenie R przechodzi przez O, czyli punkt przecięcia N i G. Możemy więc tgβ zapisać jako:</p>
+			<img src="img/windsurfing4.JPG">
+			<p>Bo wiemy, że:</p>
+			<p>tgφ = sinφ/cosφ</p>
+			</section>
+			<section>
+				<h1>Przykład</h1>
+				<p>Na podstawie zrobionego zdjęcia, możemy do wcześniej wyprowadzonego równania podstawić parę danych:</p>
+				<p>γ = 40° <br>
+					φ = 30° <br>
+					d<sub>1</sub> = 1,2m <br>
+					d<sub>2</sub> = 0,6m
+					</p>
+				<img src="img/windsurfing5.JPG">
+				<p>Zobaczmy ile siły będzie musiał włożyć w żeglugę, ważący 70 kg żeglarz.</p>
+				<b>G = m*g</b>
+				<p>Gdzie: <br>
+					G - ciężar żeglarza <br>
+					m - masa żeglarza <br>
+					g - przyśpieszenie ziemskie: 9,8 m/s2
+					</p>
+				<img src="img/windsurfing6.JPG">
+				<p>Używa on więc siły równej prawie ⅔ masy jego ciała.</p>
+			</section>
+	</article>
+	
+	
+
+</body>
+</html>
