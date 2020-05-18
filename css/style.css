@@ -28,18 +28,35 @@ html::before {
 		text-align: left;
 	}
 }
+@media only screen and (max-width: 600px){
+	article{
+		position: relative;
+		margin-left: auto;
+		width: 500px;
+	}
+	ul {
+		width: 600px;
+		
+		text-align: left;
+	}
+	li{
+		width: 60%;
+		text-align: left;
+	}
+}
 body{
 	margin: 0px;
 	background-image: url("https://matematykawzaglach.github.io/img/tlo2.png");
 	background-repeat: no-repeat;
 	background-attachment: fixed;
 	background-size: auto;
+	
 	font-family: 'Roboto', 'Times New Roman', Times, serif;
 }
-
 .menu {
-	margin: auto 1.5% auto auto;
-	display: flex
+	display: flex;
+	justify-content: center;
+	
 }
 
 .button {
@@ -54,6 +71,7 @@ body{
 	display: flex;
 	padding: 0px;
 	flex-direction: row;
+	justify-content: center;
 }
 
 .logo {
