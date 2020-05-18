@@ -2,7 +2,7 @@
 html::before {
     content: ' ';
     display: block;
-    background-image: url("https://matematykawzaglach.github.io/img/Glowne_zdjecie.jpg");
+    background-image: url("https://matematykawzaglach.github.io/img/tlo2.png");
     background-position: bottom left; 
     background-size: cover;
     top: 0;
@@ -26,7 +26,7 @@ html::before {
 }
 body{
 	margin: 0px;
-	background-image: url("https://matematykawzaglach.github.io/img/Glowne_zdjecie.jpg");
+	background-image: url("https://matematykawzaglach.github.io/img/tlo2.png");
 	background-repeat: no-repeat;
 	background-attachment: fixed;
 	background-size: auto;
