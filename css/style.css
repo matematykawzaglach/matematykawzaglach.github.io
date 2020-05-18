@@ -28,22 +28,6 @@ html::before {
 		text-align: left;
 	}
 }
-@media only screen and (max-width: 600px){
-	article{
-		position: relative;
-		margin-left: auto;
-		width: 500px;
-	}
-	ul {
-		width: 600px;
-		
-		text-align: left;
-	}
-	li{
-		width: 60%;
-		text-align: left;
-	}
-}
 body{
 	margin: 0px;
 	background-image: url("https://matematykawzaglach.github.io/img/tlo2.png");

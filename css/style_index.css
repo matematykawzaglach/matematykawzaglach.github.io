@@ -1,7 +1,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Pangolin&display=swap');
-@media screen and (min-device-width: 1200px) and (max-device-width: 1600px) { 
-.centered{
-	font-size: 10px;
+@media screen and (min-device-width: 700px) and (max-device-width: 1600px) { 
+
+	.centered {
+	font-family: 'Pangolin', 'Times New Roman', Times, serif;
+	margin-top: 10rem;
+	text-align: center;
+	font-size: 100px;
+	color: white;
+	
 }
 
 }
