@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Pangolin&display=swap');
 @media screen and (min-device-width: 1200px) and (max-device-width: 1600px) { 
 .centered{
-	font-size: larger;
+	font-size: 10px;
 }
 
 }
