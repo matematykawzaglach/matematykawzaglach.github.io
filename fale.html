@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="css/style_fale.css">
+	<title>Fale</title>
+</head>
+<body>
+	<header>
+		<div class="flex_header">
+			<div class = "logo">
+				<a href="index.html"><img src = "img/logo.png"></a> 
+			</div>
+			<nav class="menu">
+				<a class = "button" href="cisnienie.html">Ciśnienie</a>
+				<a class = "button" href="wiatr.html">Wiatr</a>
+				<a class = "button" href="opor_czolowy.html">Opór czołowy</a>
+				<a class = "button" href="fale.html">Fale</a>
+				<a class = "button" href="predkosc_jachtu.html">Prędkość jachtu</a>	
+				<a class = "button" href="windsurfing.html">Windsurfing</a>
+			</nav>
+		</div>
+	</header>
+	<article>
+		<section>
+			<h1>Interferencja fal</h1>
+			<p>Interferencja fal - szczególny przypadek superpozycji fal o jednakowej częstotliwości, które pochodzą z dwóch różnych źródeł</p>
+			<p>Jeśli fale mają jednakową częstotliwość, prędkość i są zgodne w fazie (jednocześnie pojawiają się u nich “grzbiety fali”), mają też do przebycia jednakową drogę, to będą docierać na miejsce w jednakowym czasie. Dlatego będą się one wzmacniać, powstanie fala o dwa razy większej amplitudzie. Jeśli natomiast zajdzie taka sytuacja, że fale nie będą miały jednakowej drogi do pokonania, czyli będą niezgodne w fazie, to będą się one wzajemnie wygasały, w tych miejscach będzie panowała cisza.</p>
+			<img src="img/fale2.JPG">
+			<p>Na rysunku widzimy dwa źródła fali, które muszą przebyć różne drogi, aby dotrzeć do punktu A. Fale z Z<sub>1</sub> mają dłuższą drogę do przebycia niż te wyruszające z Z<sub>2</sub>. Jeśli jednak różnica dróg będzie równa długości fali, to będą się one nadal wzmacniać w punkcie A.</p>
+			<b>Δs = s<sub>1</sub> - s<sub>2</sub> = λ</b>
+			<p>Będzie to działało również dla 2λ, 3λ, itd.. Możemy więc wysnuć wniosek, że maksymalne wzmocnienie fal  będzie występowało jeśli różnica dróg źródeł do danego punktu jest wielokrotnością liczby długości fal:</p>
+			<b>Δs = n*λ</b>
+			<p>Gdzie n należy do liczb naturalnych</p>
+			<p>Spróbujmy teraz opisać powyższy warunek za pomocą kąta:</p>
+			<img src="img/fale4.JPG">
+			<p>Gdzie: <br>
+				θ - miejsce największego wzmocnienia fal, między prostą DC a prostą DA <br>
+				DC - symetralna odcinka łączącego źródła <br>
+				DA - prosta, przechodząca przez punkt, z którego obserwujemy fale i środek odcinka łączącego źródła fal
+				</p>
+			<p>Spróbujmy wyznaczyć sobie kąt theta, korzystając z trójkąta Z<sub>2</sub>AD</p>
+			<b>(90°+ θ) + γ + β = 180°</b>
+			<b>θ + β + γ = 90°</b>
+			<p>Załóżmy, że A znajduje się daleko od źródła fali. Oznacza to, że s<sub>1</sub> i s<sub>2</sub> są znacznie dłuższe od d. Możemy więc przyjąć, że ∢Z<sub>2</sub>AD = γ jest bardzo mały i można go pominąć. Zostajemy z:</p>
+			<b>θ + β = 90°</b>
+			<p>Wiemy, że trójkąt Z<sub>1</sub>Z<sub>2</sub>B jest prostokątny, więc możemy zapisać, że:</p>
+			<b>β + α = 90°</b>
+			<p>Wiemy też, że ∢Z<sub>1</sub>Z<sub>2</sub>B = ∢Z<sub>1</sub>Z<sub>2</sub>A</p>
+			<b>θ + β = β + α</b>
+			<b>θ = α</b>
+			<p>Już przypomnieliśmy sobie funkcje trygonometryczne, wiemy więc, że:</p>
+			<b>sinθ = sinα</b> <br> <br>
+			<img src="img/fale5.JPG">
+			<p>Wiemy z wcześniejszych rozważań, że Δs = nλ, więc:</p>
+			<img src="img/fale6.JPG">
+			<p>Gdzie: <br>
+				n należy do liczb naturalnych <br>
+				d - odległość między dwoma źródłami <br>
+				λ - długość fali
+				</p>
+			<p>Zależność ta działa dla wszystkich fal, przy założeniu że obserwator jest daleko od źródeł.</p>
+
+			
+			</section>
+			<section>
+				<h1>Jak powstają fale?</h1>
+				<p>Za każdym statkiem pojawiają się fale, jednak dlaczego się tak dzieje?</p>
+				<p>Dla uproszczenia przyjmijmy, że nasz kadłub stoi w miejscu, a porusza się tylko woda dookoła niego. Niech wszystkie jej cząsteczki poruszają się z prędkością v<sub>0</sub>.</p>
+				<img src="img/fale3.JPG">
+				<p>Jak widzimy na rysunku w punkcie ,,a” cząsteczki napotykają nagle przeszkodę w postaci dzioba jachtu. W takim wypadku będą one zmuszone zwolnić, więc v<sub>a</sub>< v<sub>0</v>.</p>
+				<p>W punkcie ,,b”, znowu przyśpieszają (cząsteczki wody), gdyż ich przypływ się zwęża. Można to wytłumaczyć na przykładzie rury z wodą, która ma grubszą i cieńszą część, jak na rysunku poniżej. Aby się poruszyć w grubszej części pewna ilość wody będzie musiała przemieścić się o niedużą odległość, natomiast aby tyle samo wody zostało przepchnięte przez cieńszą część rurki, musi ona w tym samym czasie pokonać większą odległość. Właśnie dlatego będzie się ona poruszać szybciej. Oznacza to, że v<sub>b</sub> > v<sub>0</sub>.</p>
+				<img src="img/fale7.JPG">
+				<p>W punkcie ,,c” natomiast cząsteczki znowu zwalniają, bo przepływ na powrót im się rozszerza, więc v<sub>c</sub> < v<sub>0</sub>. Co więcej v<sub>a</sub> < v<sub>c</sub> < v<sub>0</sub>, bo nie zwalniają one aż tak bardzo jak kiedy napotykają przeszkodę w punkcie ,,a”.</p>
+				<p>Te zmiany prędkości wspaniale przedstawia drugi wykres na pierwszym rysunku.</p>
+				<p>Aby wyjaśnić sobie powstawanie fal musimy też sięgnąć do prawa Bernoulliego, które lekko przekształcimy:</p>
+				<img src="img/fale.JPG">
+				<p>Możemy w tym przypadku pominąć p (ciśnienie), dlatego, że nie będzie ono w tym przypadku ulegać zmianie. Zostaje nam więc:</p>
+				<img src="img/fale8.JPG">
+				<p>Aby ułatwić sobie zapis, skorzystamy z zależności ciężaru od przyspieszenia ziemskiego i gęstości;</p>
+				<b>γ = ⍴g</b>
+				<b>⍴ = γ/g</b>
+				<p>Możemy więc zamiast ⍴gh zapisać γh, a zamiast</p>
+				<img src="img/fale9.JPG">
+				<p>Po tych przekształceniach zostaje nam:</p>
+				<img src="img/fale10.JPG">
+				<p>Gdzie: <br>
+					h - wysokość na jakiej znajdują się cząsteczki wody <br>
+					γ - ciężar wody <br>
+					v - prędkość cząsteczek <br>
+					g - przyśpieszenie ziemskie
+					</p>
+				<p>Właśnie trzeci wykres na pierwszym rysunku, przedstawia nam to jak będzie się zmieniać poziom wody. Wynika to bezpośrednio z prawa Bernoulliego zapisanego powyżej. Jeśli bowiem zwiększymy prędkość, to będziemy musieli zmniejszyć wysokość, bo g się nie zmienia, a w tej sytuacji również γ pozostaje niezmienna. Tak właśnie powstają nam fale. Tworzą się one i przy dziobie jachtu i przy rufie, gdzie te przy dziobie, jak wynika z prawa Bernoulliego, będą mieć większą amplitudę (różnicę wysokość).</p>
+			</section>
+			<section>
+				<h1>Relacja między długością fal poprzecznych a prędkością łodzi</h1>
+				<p>Między prędkością łodzi, a jej długością jest ścisłe powiązanie, które możemy zapisać w postaci równania:</p>
+				<img src="img/faleR1.JPG">
+				<p>Gdzie: <br>
+					λ - długość fali poprzecznej <br>
+					v - prędkość łodzi <br>
+					g - przyspieszenie grawitacyjne Ziemi
+					</p>
+				<p>Wynika z niego, że jeśli wzrośnie prędkość łodzi, wzrośnie również długość powstającej fali, gdyż reszta danych pozostaje w tym przypadku niezmienna.
+					Spróbujmy teraz przedstawić te relacje w węzłach (knots).
+					</p>
+					<p>g = 10 m/s<sup>2</sup> = 32,8 ft/s<sup>2</sup>, bo 1 m = 3,28, więc 10*3,28 = 32,8</p>
+					<p>(ft to oznaczenie stopy, od feet)</p>
+					<p>Chcemy z naszego wzoru na λ uzyskać wzór na prędkość, więc musimy go przekształcić:</p>
+					<img src="img/faleR2.JPG">
+					<p>Spróbujmy teraz podstawić jakieś dane:</p>
+					<img src="img/faleR3.JPG">
+					<p>Wynik dostajemy w stopach na sekundę. Chcemy go jednak mieć w węzłach (knots) czyli milach morskich na godzinę.</p>
+					<p>1 mila morska = 6076 ft (stóp)</p>
+					<p>Chcemy zmienić ft/s na mile morskie/h</p>
+					<p>1 ft/s = 1*[(1/6076) / (1/3600)] = (1/6076)*(3600/1) = 0,592 knots</p>
+					<img src="img/faleR4.JPG">
+					<p>Spróbujmy wykorzystać nasze równania żeby znaleźć speed to length ratio (stosunek prędkości jachtu do pierwiastka z długość kadłuba). Zacznijmy od przekształcenia naszego równania.</p>
+					<img src="img/faleR5.JPG">
+					<p>Oznaczmy długość kadłuba jako L, powstanie nam stosunek</p>
+					<img src="img/faleR6.JPG" alt="">
+					<p>Jeśli podstawimy do tego nasz wcześniejszy wzór na λ, powstanie nam:</p>
+					<img src="img/faleR7.JPG">
+					<p>Teraz przekształćmy to lekko:</p>
+					<img src="img/faleR8.JPG" alt="">
+			</section>
+			<section>
+				<h1>Opór falowy</h1>
+				<img src="img/faleO1.JPG">
+				<p>Na rysunku a widzimy falę dziobową o długości λ = L, czyli równej długości kadłuba. Skoro wiemy już jak tworzą się fale, to spróbujmy sobie wyjaśnić co to opór falowy.</p>
+				<p>Oznacza to, że będzie ona zgodna w fazie z falą rufową. Będą się więc one wzmacniały.</p>
+				<p>Na rysunku b widzimy natomiast falę dziobową o długość λ = (⅔)L, nie będzie więc ona zgodna w fazie z falą rufową, będą więc one interferować destruktywnie.</p>
+				<p>Aby wytworzyć falę łódź musi wykorzystać energię, więc im większe fale tym więcej ,,zmarnowanej” energii. Jeśli więc fale będą, tak jak na pierwszym rysunku, się wzmacniały to jacht będzie musiał oddać więcej swojej energii. Jeśli natomiast będzie, tak jak na drugim rysunku, będą one intereferowaly destruktywnie, to fala będzie mniejsza, czyli pochłonie ona mniej energii. Dla łodzi, więc o wiele korzystniejsza jest sytuacja b, gdzie to fale się wzajemnie ,,wyciszają”.</p>
+			</section>
+			<section>
+				<h1>Co się dzieje gdy dwie łodzie płynął koło siebie?</h1>
+				<p>Jaki wpływ będą miały fale na dwie płonące koło siebie łodzie?</p>
+				<img src="img/faleCo1.JPG">
+				<p>Wydawałoby się, że łodzie przedstawione na powyższym rysunku będą się odpychać. W rzeczywistości jednak będą się one przyciągać. Jak już wytłumaczyłam, mówiąc o powstawaniu fal, gdy zmniejsza się szerokość przepływu, zwiększa się prędkość z jaką płynie woda. Z prawa Bernoulliego wiemy, że w takim wypadku ciśnienie będzie musiało się zmniejszyć.</p>
+				<b>½ ⍴v<sup>2</sup>+ρgh = const</b>
+				<p>Widzimy to szczególnie dobrze przy analizie równania, aby pozostało ono const (wartość się nie zmieniła), gdy prędkość się zwiększa, ciśnienie się zmniejsza. Co to oznacza dla naszych łodzi? Będą one odczuwały mniejszy nacisk na burty , bo zmniejszy się ciśnienie. Właśnie dlatego łodzie zaczną się do siebie zbliżać. Co ciekawe im bliżej siebie będą kadłuby, tym mocniejszy będzie ten efekt.</p>
+
+			</section>
+	</article>
+	
+	
+
+</body>
+</html>
